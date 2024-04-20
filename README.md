@@ -8,4 +8,37 @@ This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intel
 2. [Data Cleaning and Augmentation](https://github.com/masamune-prog/SC1015_Project/blob/edits/Data%20Cleaning%20%2B%20Preprocessing%20%2B%20Feature%20Engineering%20.ipynb)
 3. [Decision Tree](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%231%20Using%20Indicators.ipynb)
 4. [Logistic regression with TF-IDF](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%232%20Using%20Textual%20Data.ipynb)
-5. [DistillBERT](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%233%20Using%20Deep%20Learning.ipynb)
+5. [Transformer Approach using DistillBERT](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%233%20Using%20Deep%20Learning.ipynb)
+
+##### Problem Definition
+
+- Are we able to tell if news is fake or not?
+- What is the best model to predict this
+
+##### Conclusion
+
+- Sentiment in News Reports is a not good indicator of veracity(surprising!)
+- Word Count in Fake News is generally longer(People do not read whole text)
+- Deep Learning Approach using DistillBERT consistently performed well in predicting fake news, but took most resources to train(99.7% accuracy, 99% recall)
+- Producing word embeddings improved accuracy significantly
+- Yes, it is possible to predict wherether news is fake or not, but require continous training to ensure model remains current.
+- Implementation of a MLops Pipeline may be more long term solution to expand database and train daily
+
+##### What did we learn in this project?
+
+- The myth of [class imbalance](https://towardsdatascience.com/your-dataset-is-imbalanced-do-nothing-abf6a0049813)
+- Word Embeddings and Transformer Architecture
+- HuggingFace Transformers
+- Logistic Regression from sklearn
+- Collaborating using GitHub
+- Concepts about Precision, Recall, and F1 Score
+
+##### References
+
+- https://huggingface.co/docs/transformers/en/index
+- https://jon-dagdagan.medium.com/fake-news-detection-pre-processing-text-d9648a2854e5
+- https://anderk687.medium.com/building-a-fake-news-classification-app-using-keras-streamlit-32f30afb71ad
+- https://prabhitha3.medium.com/fake-news-detection-using-machine-learning-models-4475f62c0836
+- https://huggingface.co/docs/transformers/en/model_doc/distilbert
+- https://discuss.huggingface.co/t/the-point-of-using-pretrained-model-if-i-dont-freeze-layers/40675
+- https://www.researchgate.net/figure/The-DistilBERT-model-architecture-and-components_fig2_358239462
