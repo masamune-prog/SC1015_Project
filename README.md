@@ -1,6 +1,6 @@
-## FDDC Team 5 Fake News Classification
+# FDDC Team 5 Fake News Classification
 
-##### About
+### About
 
 This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intelligence) which focuses on fake news dectection using the [ISOT News Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets). For detailed walkthrough, please view the source code in order from
 
@@ -10,12 +10,12 @@ This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intel
 4. [Logistic regression with TF-IDF](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%232%20Using%20Textual%20Data.ipynb)
 5. [Transformer Approach using DistillBERT](https://github.com/masamune-prog/SC1015_Project/blob/edits/Training%20Attempt%20%233%20Using%20Deep%20Learning.ipynb)
 
-##### Problem Definition
+### Problem Definition
 
 - Are we able to tell if news is fake or not?
 - What is the best model to predict this
 
-##### Conclusion
+### Conclusion
 
 - Sentiment in News Reports is a not good indicator of veracity(surprising!)
 - Word Count in Fake News is generally longer(People do not read whole text)
@@ -24,7 +24,7 @@ This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intel
 - Yes, it is possible to predict wherether news is fake or not, but require continous training to ensure model remains current.
 - Implementation of a MLops Pipeline may be more long term solution to expand database and train daily
 
-##### What did we learn in this project?
+### What did we learn in this project?
 
 - The myth of [class imbalance](https://towardsdatascience.com/your-dataset-is-imbalanced-do-nothing-abf6a0049813)
 - Word Embeddings and Transformer Architecture
@@ -33,7 +33,7 @@ This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intel
 - Collaborating using GitHub
 - Concepts about Precision, Recall, and F1 Score
 
-##### References
+### References
 
 - https://huggingface.co/docs/transformers/en/index
 - https://jon-dagdagan.medium.com/fake-news-detection-pre-processing-text-d9648a2854e5
