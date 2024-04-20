@@ -33,6 +33,12 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 - Collaborating using GitHub
 - Concepts about Precision, Recall, and F1 Score
 
+### Contributors
+
+- @Poto5qin Decision Tree
+- @adimi9 Logistic Regression + TF-IDF
+- @masamune-prog Transformer Approach
+
 ### References
 
 - https://huggingface.co/docs/transformers/en/index
