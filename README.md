@@ -2,7 +2,7 @@
 
 ### About
 
-This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intelligence) which focuses on fake news dectection using the [ISOT News Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets). For detailed walkthrough, please view the source code in order from
+This is a Mini Project for SC1015 (Introduction to Data Science and Artificial Intelligence) which focuses on fake news dectection using the [ISOT News Dataset](https://www.kaggle.com/datasets/emineyetm/fake-news-detection-datasets). For detailed walkthrough, please view the source code in order from
 
 1. [Data Visualisation](https://github.com/masamune-prog/SC1015_Project/blob/edits/Data%20cleaning%20%2B%20visualization.ipynb)
 2. [Data Cleaning and Augmentation](https://github.com/masamune-prog/SC1015_Project/blob/edits/Data%20Cleaning%20%2B%20Preprocessing%20%2B%20Feature%20Engineering%20.ipynb)
@@ -20,7 +20,7 @@ This is a Mini Project CZ1115 (Introduction to Data Science and Artificial Intel
 - Sentiment in News Reports is a not good indicator of veracity(surprising!)
 - Word Count in Fake News is generally longer(People do not read whole text)
 - Deep Learning Approach using DistillBERT consistently performed well in predicting fake news, but took most resources to train(99.7% accuracy, 99% recall)
-- Producing word embeddings improved accuracy significantly
+- Producing word embeddings improved accuracy significantly(94% accuracy(TD-IDF) vs 72% accuracy(Decision Tree) vs 99.7%(DistillBERT))
 - Yes, it is possible to predict wherether news is fake or not, but require continous training to ensure model remains current.
 - Implementation of a MLops Pipeline may be more long term solution to expand database and train daily
 
