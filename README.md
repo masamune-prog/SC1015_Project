@@ -24,6 +24,8 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 - Yes, it is possible to predict wherether news is fake or not, but require continous training to ensure model remains current.
 - Implementation of a MLops Pipeline may be more long term solution to expand database and train daily
 
+### Evaluation on a uniform test set
+
 | Model                                | Training Accuracy | Test Accuracy |
 | ------------------------------------ | ----------------- | ------------- |
 | Decision Tree                        | 71%               | 70%           |
