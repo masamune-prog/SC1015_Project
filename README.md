@@ -20,7 +20,7 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 - Sentiment in News Reports is a not good indicator of veracity(surprising!)
 - Word Count in Fake News is generally longer(People do not read whole text)
 - Deep Learning Approach using DistillBERT consistently performed well in predicting fake news, but took most resources to train(99.9% accuracy, 99.9% recall)
-- Producing word embeddings improved accuracy significantly(94% accuracy(TD-IDF) vs 71% accuracy(Decision Tree) vs 99.7%(DistillBERT) )
+- Producing word embeddings improved accuracy significantly(94% accuracy(TD-IDF) vs 71% accuracy(Decision Tree) vs 99.97%(DistillBERT) )
 - Yes, it is possible to predict wherether news is fake or not, but require continous training to ensure model remains current.
 - Implementation of a MLops Pipeline may be more long term solution to expand database and train daily
 
@@ -28,7 +28,7 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 
 | Model                                | Training Accuracy | Test Accuracy |
 | ------------------------------------ | ----------------- | ------------- |
-| Decision Tree                        | 71%               | 70%           |
+| Decision Tree + Random Forests       | 71%               | 70%           |
 | Logistic Regression with TF-IDF      | 97%               | 97%           |
 | Transformer(Pre-Trained DistillBERT) | 100%              | 99.9%         |
 
@@ -44,7 +44,7 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 ### Contributors
 
 - @Poto5qin Data Cleaning + Preprocessing + Feature Engineering + Decision Tree
-- @adimi9 Exploratory Data Analysis + Random Forest + TF-IDF Vectorisation + Logistic Regression 
+- @adimi9 Exploratory Data Analysis + Random Forest + TF-IDF Vectorisation + Logistic Regression
 - @masamune-prog Transformer Approach
 
 ### References
