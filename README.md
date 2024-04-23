@@ -29,7 +29,7 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 | Model                                | Training Accuracy | Test Accuracy |
 | ------------------------------------ | ----------------- | ------------- |
 | Decision Tree                        | 71%               | 70%           |
-| Logistic Regression with TF-IDF      | 95%               | 95%           |
+| Logistic Regression with TF-IDF      | 92%               | 92%           |
 | Transformer(Pre-Trained DistillBERT) | 100%              | 99.9%         |
 
 ### What did we learn in this project?
