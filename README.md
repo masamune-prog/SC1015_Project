@@ -43,8 +43,8 @@ This is a Mini Project for SC1015 (Introduction to Data Science and Artificial I
 
 ### Contributors
 
-- @Poto5qin Data Cleaning + Feature Engineering + Decision Tree
-- @adimi9 EDA + Random Forest + Logistic Regression + TF-IDF 
+- @Poto5qin Data Cleaning + Preprocessing + Feature Engineering + Decision Tree
+- @adimi9 Exploratory Data Analysis + Random Forest + TF-IDF Vectorisation + Logistic Regression 
 - @masamune-prog Transformer Approach
 
 ### References
